@@ -46,7 +46,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: kostya2211/final_sprint12
+          images: kostya2211/final12
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
